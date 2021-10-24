@@ -15,12 +15,6 @@ public class HdiinfraappApp {
             .region("us-west-2")
             .build())
         .build());
-    new HdiInfraApiStack(app, "HdiInfraApiStack", StackProps.builder()
-        .env(Environment.builder()
-            .account("102733166919")
-            .region("us-west-2")
-            .build())
-        .build());
     app.synth();
   }
 }
