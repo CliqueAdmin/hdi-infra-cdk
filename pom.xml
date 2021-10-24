@@ -43,7 +43,16 @@
             <artifactId>core</artifactId>
             <version>${cdk.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>cdk-pipelines</artifactId>
+            <version>${cdk.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>lambda</artifactId>
+            <version>${cdk.version}</version>
+        </dependency>
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-api</artifactId>
