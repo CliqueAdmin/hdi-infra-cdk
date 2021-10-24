@@ -25,7 +25,6 @@ public class HdiinfraappStack extends Stack {
             .build())
         .build();
 
-    Repository.Builder.create(scope, id + "-ecr").repositoryName("hdirepos-cicd").build();
   }
 
 
