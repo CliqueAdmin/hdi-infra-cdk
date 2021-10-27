@@ -55,6 +55,16 @@
         </dependency>
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
+            <artifactId>ecs</artifactId>
+            <version>${cdk.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>ecs-patterns</artifactId>
+            <version>${cdk.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
             <artifactId>lambda</artifactId>
             <version>${cdk.version}</version>
         </dependency>
